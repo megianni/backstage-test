@@ -13,33 +13,11 @@ kind: Component
 metadata:
   name: backstage-test
   annotations:
-    circleci.com/project-slug: circleci/T1Ww4BYaubjnAKxK3fNg7N/XaXH6AivXPu1UPamMmLdrw
+    circleci.com/project-slug: github/megianni/backstage-test
+    #circleci/T1Ww4BYaubjnAKxK3fNg7N/XaXH6AivXPu1UPamMmLdrw
     #github/megianni/backstage-test
 spec:
   type: website
   lifecycle: experimental
   owner: guests
   system: examples
-  providesApis: [example-grpc-api]
----
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: example-grpc-api
-spec:
-  type: grpc
-  lifecycle: experimental
-  owner: guests
-  system: examples
-  definition: |
-    syntax = "proto3";
-
-    service Exampler {
-      rpc Example (ExampleMessage) returns (ExampleMessage) {};
-    }
-
-    message ExampleMessage {
-      string example = 1;
-    };
-
