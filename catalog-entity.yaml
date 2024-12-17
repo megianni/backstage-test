@@ -13,7 +13,8 @@ kind: Component
 metadata:
   name: backstage-test
   annotations:
-    circleci.com/project-slug: github/megianni/backstage-test
+    circleci.com/project-slug: circleci/T1Ww4BYaubjnAKxK3fNg7N/XaXH6AivXPu1UPamMmLdrw
+    #github/megianni/backstage-test
 spec:
   type: website
   lifecycle: experimental
