@@ -12,7 +12,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-test
-  circleci.com/project-slug: circleci/T1Ww4BYaubjnAKxK3fNg7N/XaXH6AivXPu1UPamMmLdrw
+  circleci.com/project-slug: T1Ww4BYaubjnAKxK3fNg7N/XaXH6AivXPu1UPamMmLdrw
 spec:
   type: website
   lifecycle: experimental
